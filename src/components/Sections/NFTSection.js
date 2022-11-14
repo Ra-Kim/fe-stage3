@@ -5,7 +5,7 @@ import img from "../../assets/Images/NFT.png"
 const NFTSection = () => {
   return (
     <StyledNFTSection>
-        <div>
+        <div id ='nft-section'>
             <div>
                 <h1>Metabnb NFTs</h1>
                 <p>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. 

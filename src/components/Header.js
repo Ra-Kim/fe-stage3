@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import { StyledHeader } from './styled/StyledHeader'
 import Logo from "../assets/svgs/Logo.svg"
 
-const Header = () => {
+const Header = (props) => {
   return (
     <StyledHeader>
         <div>
@@ -13,13 +13,13 @@ const Header = () => {
             />
         </div>
         <nav>
-            <Link>Home</Link>
-            <Link>Place To Stay</Link>
+            <Link to = "/">Home</Link>
+            <Link to = "/places">Place To Stay</Link>
             <Link>NFTs</Link>
             <Link>Community</Link>
         </nav>
         <div>
-            <button>Connect Wallet</button>
+            <button onClick={props.toggleOverlay}>Connect Wallet</button>
         </div>
     </StyledHeader>
   )

@@ -31,6 +31,7 @@ export const StyledHeader = styled.div`
         outline: none;
         padding: 1% 2%;
         color: #fff;
+        cursor: pointer;
         position: absolute;
         bottom: 9%;
         right: 1%;

@@ -80,7 +80,7 @@ export const StyledPlacesSection = styled.div`
 `
 
 export const StyledNFTSection = styled.div`
-    height: 480px;
+    height: 500px;
     background: #A02279;
     padding: 20px 100px;
     display: grid;

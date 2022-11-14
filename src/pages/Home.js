@@ -10,9 +10,10 @@ import NFTSection from '../components/Sections/NFTSection'
 
 
 const Home = () => {
+
   return (
     <>
-    <Landing />
+    <Landing  />
     <div className='sponsors-div'>
         <div>
             <img 
