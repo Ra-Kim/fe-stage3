@@ -6,12 +6,14 @@ import Logo from "../assets/svgs/Logo.svg"
 const Header = (props) => {
   return (
     <StyledHeader>
+        <Link to = "/">
         <div>
             <img
              src={Logo}
              alt = "logo"
             />
         </div>
+        </Link>
         <nav>
             <Link to = "/">Home</Link>
             <Link to = "/places">Place To Stay</Link>

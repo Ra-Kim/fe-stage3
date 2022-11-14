@@ -6,6 +6,22 @@ import TownHall from "./assets/Images/TownHall.png"
 import CandyCrush from "./assets/Images/CandyCrush.png"
 import MoonVilla from "./assets/Images/MoonVilla.png"
 import Future from "./assets/Images/Future.png"
+import Irichaku from "./assets/Images/Irichaku.png"
+import Hogwarts from "./assets/Images/Hogwarts.png"
+import TBBT from "./assets/Images/TBBT.png"
+import Christmas from "./assets/Images/Christmas.png"
+import Suburbs from "./assets/Images/Suburbs.png"
+import Overhead from "./assets/Images/OverHead.png"
+import Condo from "./assets/Images/Condo.png"
+import Cottage from "./assets/Images/Cottage.png"
+
+
+
+
+
+
+
+
 
 
 export const LandingData =  [
@@ -18,3 +34,22 @@ export const LandingData =  [
     MoonVilla,
     Future
 ]   
+
+export const PlacesData = [
+    TownHall,
+    CandyCrush,
+    MoonVilla,
+    Future,
+    CookieHouse,
+    IslandHut,
+    TechBro,
+    SpookyPalms,
+    Irichaku,
+    Hogwarts,
+    TBBT,
+    Christmas,
+    Suburbs,
+    Overhead,
+    Condo,
+    Cottage
+]

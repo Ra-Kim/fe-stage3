@@ -23,6 +23,10 @@ export const StyledHeader = styled.div`
         color: #434343;
     }
 
+    a:hover {
+        font-weight:bold;
+    }
+
     button {
         font-family: "Red Rose", "sans-serif";
         background:linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);

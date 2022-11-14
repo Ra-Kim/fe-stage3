@@ -108,3 +108,37 @@ h1 {
     font-weight: 500;
     color: #939e96;
 }
+
+.paigination {
+    padding-block: 2%;
+    display: grid;
+    grid-template-columns: 77% 23%;
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 80%;
+}
+
+.paigination nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #434343;
+}
+
+.location-toggle {
+    height: 38px;
+    width: 139px;
+    margin-left: 20%;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
