@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.div`
-    height: 300px;
+    min-height: 300px;
     padding:50px 0  0;
     color: #F1F3F9;
     background: #1D1D1E;
@@ -44,5 +44,46 @@ export const StyledFooter = styled.div`
         p {
             margin-left: 2%;
         }
+    }
+
+    .certified-mobile {
+            display: none;
+    }
+
+    @media only screen and (max-width: 770px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding:30px 0  0;
+
+        .certified {
+         display: none;
+        }
+
+        .certified-mobile {
+            display: flex;
+            margin: auto;
+            margin-top: 10%;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                margin-left: 2%;
+            }
+        }
+
+        .footer-div-one {
+            margin-left: 0;
+        }
+
+        .social-div {
+            margin: 10% auto;
+            width: 30%;
+        }
+
+        h3 {
+        margin-block: 7%;
+    }
     }
 `

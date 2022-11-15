@@ -54,6 +54,7 @@ const Footer = () => {
         <p>Career</p>
         <p>Contact Us</p>
       </div>
+      <div className='certified-mobile'><span><img  src = {check} alt = "certified"/></span> <p>2022 Metabnb </p></div>
     </StyledFooter>
   )
 }

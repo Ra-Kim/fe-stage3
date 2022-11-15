@@ -41,4 +41,57 @@ export const StyledHeader = styled.div`
         right: 1%;
     }
 
+    .hamburger {
+        display: none;
+    }
+
+    @media only screen and (max-width: 770px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 97%;
+        margin-bottom: 7%;
+
+        nav, .button {
+            display: none;
+        }
+
+        .hamburger {
+            display: block;
+            height: 50px;
+            width: 50px;
+            margin-right: 3%;
+        }
+
+        .ham-menu {
+            position: absolute;
+            right: 3%;
+            top: 80%;
+            z-index: 99;
+            margin: 10px 0;
+            padding: 0;
+            border: 1px solid grey;
+            background: #fff;
+            width: 150px;
+            animation : 2s fadeIn;
+        }
+
+        button {
+            position: relative;
+            color: #fff;
+        }
+
+        .ham-menu ul {
+            list-style-type: none;
+        }
+
+        .ham-menu li {
+            padding: 7%;
+        }
+
+        .button-mobile {
+            background: #A02279;
+        }
+    }
+
 `

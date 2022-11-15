@@ -28,7 +28,7 @@ export const StyledLanding = styled.div`
         justify-content: space-around;
 
         p {
-            font-size: 19px;
+            font-size: 19.9px;
             line-height: 35px;
             color: #434343;
         }
@@ -65,6 +65,48 @@ export const StyledLanding = styled.div`
         border-radius: 0 5px 5px 0;
         font-family: 'Red Rose' , 'sans-serif';
     }
+
+    @media only screen and (max-width: 770px) {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 2%;
+
+        img {
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 2%;
+        }
+
+        .landing-info {
+            height: 100%;
+
+            p {
+                font-size: 15px;
+            }
+
+            .input {
+                margin-block: 6%;
+                flex-direction: column;
+                box-shadow: none;
+                align-items: center;
+                padding: 2%;
+            }
+
+            input {
+                box-shadow: -1px 7px 7px -8px rgba(0,0,0,0.75);
+            }
+
+            button {
+                position: relative;
+                margin-top: 2%;
+                border-radius: 5px;
+            }
+        }
+    }
 `
 
 export const StyledPlacesSection = styled.div`
@@ -80,7 +122,7 @@ export const StyledPlacesSection = styled.div`
 `
 
 export const StyledNFTSection = styled.div`
-    height: 500px;
+    min-height: 500px;
     background: #A02279;
     padding: 20px 100px;
     display: grid;
@@ -124,5 +166,36 @@ export const StyledNFTSection = styled.div`
 
     img {
         width: 70%;
+    }
+
+    @media only screen and (max-width: 770px) {
+        height: fit-content;
+        padding: 5% 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: start;
+
+        div {
+            height: 100%;
+        }
+
+        .img-div {
+            margin-bottom: 5%;
+        }
+
+        h1 {
+            font-size: 40px;
+            padding-block: 3%;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+        button {
+            margin-top: 3%;
+            width: 120px;
+        }
     }
 `
